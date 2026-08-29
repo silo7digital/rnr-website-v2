@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ROOTS n REVERIE — Photography</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="is-loading" data-section="intro">
+<div class="site-shell">
+  <div class="image-stage" aria-hidden="true">
+    <div class="background-image is-active" id="bg-a"></div>
+    <div class="background-image" id="bg-b"></div>
+    <div class="image-treatment"></div>
+    <div class="content-shade"></div>
+    <div class="grain"></div>
+    <div class="wipe-edge"></div>
+  </div>
+
+  <header class="topbar">
+    <a class="home-mark" href="#intro" data-target="intro" aria-label="Home">Rr</a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <button data-target="tide">Tide</button>
+      <button data-target="bloom">Bloom</button>
+      <button data-target="still">Still</button>
+      <button data-target="prints">Prints</button>
+      <button data-target="about">About</button>
+    </nav>
+    <div class="top-actions">
+      <button class="utility-button" data-open-gallery>Gallery</button>
+      <button class="utility-button" data-open-shop>Shop</button>
+      <a class="contact-button" href="mailto:hello@example.com">Contact</a>
+    </div>
+  </header>
+
+  <main class="viewport">
+    <section class="panel panel--intro is-active" id="intro" data-index="0" data-image="assets/images/photo-02.jpg">
+      <div class="intro-copy panel-copy">
+        <div class="intro-subline"><strong>ROOTS n REVERIE</strong><span>Nature & landscape photography</span></div>
+        <h1 class="hero-title" aria-label="Rooted. Quiet. Reverie.">
+          <span class="hero-word-window">
+            <span class="hero-word is-current">ROOTED.</span>
+            <span class="hero-word">QUIET.</span>
+            <span class="hero-word">REVERIE.</span>
+          </span>
+        </h1>
+      </div>
+    </section>
+
+    <section class="panel panel--content" id="tide" data-index="1" data-image="assets/images/photo-06.jpg" aria-hidden="true">
+      <div class="content-panel panel-copy">
+        <p class="section-kicker"><span>01</span> Tide</p>
+        <h2>Weather. Water. Waiting.</h2>
+        <p>Cold horizons, moving water and the split second where weather becomes memory. A study of the sea as both force and stillness.</p>
+        <button class="series-link" data-gallery="tide">View the series <span>↗</span></button>
+      </div>
+    </section>
+
+    <section class="panel panel--content" id="bloom" data-index="2" data-image="assets/images/photo-03.jpg" aria-hidden="true">
+      <div class="content-panel panel-copy">
+        <p class="section-kicker"><span>02</span> Bloom</p>
+        <h2>Colour, briefly held.</h2>
+        <p>Wild growth, saturated petals and small interruptions of colour. Photographs about noticing what would otherwise be passed by.</p>
+        <button class="series-link" data-gallery="bloom">View the series <span>↗</span></button>
+      </div>
+    </section>
+
+    <section class="panel panel--content" id="still" data-index="3" data-image="assets/images/photo-07.jpg" aria-hidden="true">
+      <div class="content-panel panel-copy">
+        <p class="section-kicker"><span>03</span> Still</p>
+        <h2>The quiet between things.</h2>
+        <p>Silhouettes, rain, leaves and fragments. Smaller observations that hold their own kind of weight.</p>
+        <button class="series-link" data-gallery="still">View the series <span>↗</span></button>
+      </div>
+    </section>
+
+    <section class="panel panel--content" id="prints" data-index="4" data-image="assets/images/photo-05.jpg" aria-hidden="true">
+      <div class="content-panel panel-copy">
+        <p class="section-kicker"><span>04</span> Prints</p>
+        <h2>Made to live with.</h2>
+        <p>Selected photographs available as fine-art prints. Choose a piece, size and edition, then continue through the shop.</p>
+        <button class="series-link" data-open-shop>Enter the shop <span>↗</span></button>
+      </div>
+    </section>
+
+    <section class="panel panel--content" id="about" data-index="5" data-image="assets/images/photo-01.jpg" aria-hidden="true">
+      <div class="content-panel panel-copy">
+        <p class="section-kicker"><span>05</span> About</p>
+        <h2>Between earth and wonder.</h2>
+        <p>ROOTS n REVERIE is a photographic practice shaped by nature, stillness and faith — looking for the moments that ask us to pay closer attention.</p>
+        <p class="quiet-note">Bosnia & Herzegovina · Available worldwide</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="bottom-ui">
+    <div class="progress"><i></i></div>
+    <div class="section-name">ROOTS n REVERIE</div>
+    <div class="section-controls">
+      <button class="prev" aria-label="Previous section">↑</button>
+      <button class="next" aria-label="Next section">↓</button>
+    </div>
+  </div>
+
+  <div class="scroll-hint">SCROLL</div>
+</div>
+
+<!-- Series lightbox -->
+<div class="gallery gallery--lightbox" aria-hidden="true">
+  <button class="gallery-close" aria-label="Close gallery">Close</button>
+  <div class="gallery-head"><span class="gallery-index">01 / 06</span><strong class="gallery-title">Tide</strong></div>
+  <div class="gallery-stage"><img src="" alt=""></div>
+  <button class="gallery-prev" aria-label="Previous photograph">←</button>
+  <button class="gallery-next" aria-label="Next photograph">→</button>
+</div>
+
+<!-- Full gallery -->
+<section class="overlay-screen full-gallery" aria-hidden="true" aria-label="Full gallery">
+  <header class="overlay-head">
+    <div><span class="overlay-eyebrow">ROOTS n REVERIE</span><h2>Gallery</h2></div>
+    <div class="gallery-filters" role="group" aria-label="Gallery filters">
+      <button class="is-active" data-filter="all">All</button>
+      <button data-filter="tide">Tide</button>
+      <button data-filter="bloom">Bloom</button>
+      <button data-filter="still">Still</button>
+    </div>
+    <button class="overlay-close" data-close-gallery>Close</button>
+  </header>
+  <div class="gallery-scroll">
+    <div class="gallery-grid" id="fullGalleryGrid"></div>
+  </div>
+</section>
+
+<!-- Shop -->
+<section class="overlay-screen shop-screen" aria-hidden="true" aria-label="Print shop">
+  <header class="overlay-head">
+    <div><span class="overlay-eyebrow">ROOTS n REVERIE</span><h2>Print shop</h2></div>
+    <div class="shop-note">Fine-art photography · International fulfilment</div>
+    <div class="shop-head-actions"><button class="cart-toggle">Cart <span class="cart-count">0</span></button><button class="overlay-close" data-close-shop>Close</button></div>
+  </header>
+  <div class="shop-scroll">
+    <div class="shop-intro"><p>Selected works printed to order. Product names, editions, paper specification and pricing below are prototype content and can be replaced with the final catalogue.</p></div>
+    <div class="product-grid" id="productGrid"></div>
+  </div>
+</section>
+
+<aside class="cart-drawer" aria-hidden="true">
+  <div class="cart-head"><strong>Your cart</strong><button class="cart-close">Close</button></div>
+  <div class="cart-items"></div>
+  <div class="cart-foot"><div><span>Subtotal</span><strong class="cart-total">€0</strong></div><button class="checkout-button">Checkout</button><small>Checkout integration will be connected to the final commerce provider.</small></div>
+</aside>
+<div class="cart-scrim"></div>
+
+<div class="preloader"><div class="preloader-inner"><strong>ROOTS n REVERIE</strong><span class="load-percent">00%</span><div class="load-line"><i></i></div></div></div>
+<script src="script.js"></script>
+</body>
+</html>
